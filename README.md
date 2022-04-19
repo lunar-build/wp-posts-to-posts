@@ -1,5 +1,7 @@
 # Posts 2 Posts
 
+THIS IS A FORK OF THE ORIGINAL PLUGIN. FORKED FOR USE IN GATHER, AS PLUGIN HAS FATAL ERRORS IN PHP8 THAT NEED ADDRESSING AND ORIGINAL IS NO LONGER IN ACTIVE DEVELOPMENT.
+
 Contributors: scribu, ciobi  
 Tags: connections, custom post types, relationships, many-to-many, users  
 Requires at least: 3.9  
