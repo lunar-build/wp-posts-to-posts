@@ -1,5 +1,5 @@
 {
-    "name": "scribu/posts-to-posts",
+    "name": "lunar-build/posts-to-posts",
     "type": "wordpress-plugin",
     "homepage": "http://wordpress.org/plugins/posts-to-posts",
     "license": "GPL-2.0+",
@@ -7,12 +7,17 @@
     "require": {
         "composer/installers": "~1.0",
         "scribu/lib-posts-to-posts": "dev-master",
-        "mustache/mustache": "~2.6"
+        "mustache/mustache": "dev-main"
     },
     "repositories": [
         {
             "type": "vcs",
             "url": "https://github.com/scribu/wp-lib-posts-to-posts"
         }
-    ]
+    ],
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true
+        }
+    }
 }
